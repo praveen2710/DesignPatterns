@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.designpattern.generic&apos; to &apos;com.designpattern.genericDuck&apos;&#x0A;- Original project: &apos;DucksDesignPattern&apos;&#x0A;- Original element: &apos;DucksDesignPattern/src/com.designpattern.generic&apos;&#x0A;- Renamed element: &apos;DucksDesignPattern/src/com.designpattern.genericDuck&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.designpattern.generic&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.designpattern.generic" name="com.designpattern.genericDuck" qualified="false" references="true" stamp="1448254663162" textual="false" version="1.0"/>
+</session>

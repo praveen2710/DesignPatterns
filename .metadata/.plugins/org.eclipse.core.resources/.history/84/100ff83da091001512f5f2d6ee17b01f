@@ -1,0 +1,5 @@
+package com.designpattern.simUDuck;
+
+public class DuckSimulator {
+	MallardDuck md = new MallardDuck();
+}

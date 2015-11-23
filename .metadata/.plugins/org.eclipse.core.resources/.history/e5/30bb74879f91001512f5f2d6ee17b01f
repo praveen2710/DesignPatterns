@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.designpatterns.specificDucks;
+
+/**
+ * @author praveen
+ *
+ */
+public class MallardDuck {
+
+}

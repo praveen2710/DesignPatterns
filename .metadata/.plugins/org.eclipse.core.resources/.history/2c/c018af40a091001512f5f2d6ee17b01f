@@ -1,0 +1,10 @@
+package com.designpattern.simUDuck;
+
+import com.designpatterns.specificDucks.MallardDuck;
+
+public class DuckSimulator {
+	
+	public static void main(String args[]){
+	MallardDuck md = new MallardDuck();
+	}
+}
