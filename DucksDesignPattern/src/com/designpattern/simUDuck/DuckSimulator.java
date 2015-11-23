@@ -2,6 +2,7 @@ package com.designpattern.simUDuck;
 
 import com.designpattern.specificDucks.MallardDuck;
 import com.designpattern.specificDucks.RedHeadDuck;
+import com.designpattern.specificDucks.RubberDuck;
 
 public class DuckSimulator {
 	
@@ -15,5 +16,12 @@ public class DuckSimulator {
 		rd.display();
 		rd.quack();
 		rd.swim();
+		
+		RubberDuck rud = new RubberDuck();
+		rud.display();
+		rud.quack();
+		rud.swim();
+		System.out.println("Crap this is problem");
+		rud.fly();
 	}
 }

@@ -23,4 +23,8 @@ public abstract class Duck {
 		System.out.println("Quack Quack");
 	}
 	
+	
+	public void fly(){
+		System.out.println("Lets fly this baby");
+	}
 }
