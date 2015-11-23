@@ -2,3 +2,19 @@
 .metadata/.log
 
 .metadata/.mylyn/.taskListIndex/segments_1
+
+.metadata/.plugins/org.eclipse.core.resources/.projects/DucksDesignPattern/.markers.snap
+
+*.snap
+
+.metadata/.plugins/org.eclipse.core.resources/.history/ac/808029d4a191001512f5f2d6ee17b01f
+
+*.snap
+
+*.index
+
+*.class
+
+*.xmi
+
+*.history

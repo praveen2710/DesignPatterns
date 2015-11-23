@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.designpatterns.specificDucks;
+package com.designpattern.specificDucks;
 
 import com.designpattern.genericDuck.Duck;
 

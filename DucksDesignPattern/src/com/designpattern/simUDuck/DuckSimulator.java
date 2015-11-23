@@ -1,7 +1,7 @@
 package com.designpattern.simUDuck;
 
-import com.designpatterns.specificDucks.MallardDuck;
-import com.designpatterns.specificDucks.RedHeadDuck;
+import com.designpattern.specificDucks.MallardDuck;
+import com.designpattern.specificDucks.RedHeadDuck;
 
 public class DuckSimulator {
 	
