@@ -2,7 +2,6 @@ package com.designpattern.simUDuck;
 
 import com.designpattern.genericDuck.FlyFast;
 import com.designpattern.genericDuck.Quack;
-import com.designpattern.genericDuck.QuackBehavior;
 import com.designpattern.genericDuck.Squeak;
 import com.designpattern.specificDucks.FakeDuckCall;
 import com.designpattern.specificDucks.MallardDuck;
