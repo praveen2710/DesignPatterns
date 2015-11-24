@@ -11,19 +11,25 @@ public class DuckSimulator {
 		md.display();
 //		md.quack();
 		md.swim();
-		md.flyme();
+		md.takeFligt();
+		md.performQuack();
+//		md.flyme();
 		
 		RedHeadDuck rd = new RedHeadDuck();
 		rd.display();
-		rd.quack();
+//		rd.quack();
 		rd.swim();
-		rd.myQuack();
-		rd.flyme();
+		rd.takeFligt();
+		rd.performQuack();
+//		rd.myQuack();
+//		rd.flyme();
 		
 		RubberDuck rud = new RubberDuck();
 		rud.display();
 //		rud.quack()
 		rud.swim();
+		rud.performQuack();
+		rud.takeFligt();
 //		System.out.println("Crap this is problem");
 //		rud.fly();
 	}

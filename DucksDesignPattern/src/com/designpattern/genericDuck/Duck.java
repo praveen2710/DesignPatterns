@@ -12,7 +12,11 @@ package com.designpattern.genericDuck;
  *
  */
 public abstract class Duck {
-		
+	
+	protected FlyBehaviour meFly;
+	
+	protected QuackBehavior meQuack;
+	
 	public Duck(){
 		
 	}
@@ -22,6 +26,14 @@ public abstract class Duck {
 	
 	public void swim(){
 		System.out.println("It is so nice in water");
+	}
+	
+	public void performQuack(){
+		meQuack.myQuack();
+	}
+	
+	public void takeFligt(){
+		meFly.flyme();
 	}
 	
 /*obeslete with implementing pattern*/	
