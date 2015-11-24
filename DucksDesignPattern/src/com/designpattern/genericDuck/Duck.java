@@ -8,6 +8,8 @@ package com.designpattern.genericDuck;
  * V2:seprating general and specific things into interface helped 
  * problem a little but added duplicate code.
  * 
+ * V3:adding interface variables to handle code duplication
+ * 
  * @author praveen
  *
  */
@@ -34,6 +36,14 @@ public abstract class Duck {
 	
 	public void takeFligt(){
 		meFly.flyme();
+	}
+	
+	public void setFlyBehavior(FlyBehaviour fb){
+		this.meFly = fb;
+	}
+	
+	public void setQuackVoice(QuackBehavior qb){
+		this.meQuack = qb;
 	}
 	
 /*obeslete with implementing pattern*/	

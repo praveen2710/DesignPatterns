@@ -18,7 +18,7 @@ import com.designpattern.genericDuck.Quack;
  * over the place and any change would have to be done to all ducks 
  * one at a time
  * 
- * V3:This removes code duplicating issue
+ * V3:This removes code duplicating issue by adding protected abstract variables.
  * 
  * @author praveen
  *
