@@ -4,17 +4,39 @@
 package com.designpattern.specificDucks;
 
 import com.designpattern.genericDuck.Duck;
+import com.designpattern.genericDuck.FlyBehaviour;
+import com.designpattern.genericDuck.QuackBehavior;
 
 /**
- * This is a subclass that inherits the Duck Superclass
+ * V1:
+ * This is a subclass that inherits the Duck Superclass.
+ * 
+ * V2:
+ * implementing flybehavior and quackbehavior interface 
+ * resolves issue of quacking but added new issues where 
+ * id we change interface we have to change implementation is all
+ * over the place and any change would have to be done to all ducks 
+ * one at a time
+ * 
+ * V3:
  * @author praveen
  *
  */
-public class MallardDuck extends Duck{
+public class MallardDuck extends Duck implements FlyBehaviour,QuackBehavior{
 
 	@Override
 	public void display() {
 		System.out.println("THis is a MallardDuck");		
 	}
 
+	@Override
+	public void flyme() {
+		System.out.println("I can fly");
+	}
+
+	@Override
+	public void myQuack() {
+		System.out.println("quack quack");
+	}
+	
 }

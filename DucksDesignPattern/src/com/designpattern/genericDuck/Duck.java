@@ -1,13 +1,18 @@
 package com.designpattern.genericDuck;
 /**
+ * V1:
  * The intial Duck class has two implemented methods
  * quack and swim. Company wants to add the functionality
  * to swim also soon.
+ * 
+ * V2:seprating general and specific things into interface helped 
+ * problem a little but added duplicate code.
+ * 
  * @author praveen
  *
  */
 public abstract class Duck {
-	
+		
 	public Duck(){
 		
 	}
@@ -19,12 +24,13 @@ public abstract class Duck {
 		System.out.println("It is so nice in water");
 	}
 	
-	public void quack(){
-		System.out.println("Quack Quack");
-	}
-	
-	
-	public void fly(){
-		System.out.println("Lets fly this baby");
-	}
+/*obeslete with implementing pattern*/	
+//	public void quack(){
+//		System.out.println("Quack Quack");
+//	}
+//	
+//	
+//	public void fly(){
+//		System.out.println("Lets fly this baby");
+//	}
 }
