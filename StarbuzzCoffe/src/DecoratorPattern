@@ -1,0 +1,8 @@
+This pattern application is when we want to plugin a certain peice of code
+to another peice of code . In the coffe example we might want to add different
+things to drinks like soy or whip cream. We can do this in different approaches using 
+inheritance but the problem arrises is that a iced coffee should not have whip cream but 
+we end up giving that functionality unnecessarily. 
+
+So the essence of this pattern is 
+"Closed for Modification but open for extension"
