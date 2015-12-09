@@ -1,0 +1,6 @@
+This is to show how observer pattern can be implemented.
+There are essentially two approaches one where the subject notifies object 
+when changes occur and other when object pulls when needed. 
+
+There is also observer pattern implementation in java that can be used in 
+some cases
