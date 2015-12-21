@@ -3,3 +3,6 @@ this will be my repository for all design patterns that I will read about in det
 
 
 Duck Problem : Solution is to use strategy pattern.
+
+Weather-O-Rama : Solution to implement observer pattern.
+
